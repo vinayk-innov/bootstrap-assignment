@@ -10,7 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <title>Hello, world!</title>
 </head>
 
@@ -19,33 +21,36 @@
         <img src="./header_image.jpg" alt="" id="header_image">
         <nav class="navbar navbar-expand-lg navbar-dark d-lg-block">
             <div class="container-fluid">
-                <a class="navbar-brand nav-link" href="#"><strong>Bootstrap Task</strong></a>
+                <a class="navbar-brand nav-link" id="custom_title" href="#"><strong>Bootstrap Task</strong></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbar">
+
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                     <ul class="navbar-nav ms-auto " style="margin-right: 30px;">
-                        <li><a class="nav-link my-2" href="#">About</a>
                         <li>
-                        <li><a class="nav-link my-2" href="#">Services</a>
+                            <a class="nav-link my-2" href="#">About</a>
                         <li>
-                        <li><a class="nav-link my-2" href="#">Portfolio</a>
                         <li>
-                        <li><a class="nav-link my-2" href="#">Contact</a>
+                            <a class="nav-link my-2" href="#">Services</a>
+                        <li>
+                        <li>
+                            <a class="nav-link my-2" href="#">Portfolio</a>
+                        <li>
+                        <li>
+                            <a class="nav-link my-2" href="#">Contact</a>
                         <li>
                 </div>
-            </div>
             </div>
         </nav>
         <section id="intro">
             <h1 class="white_text main_heading">Bootstrap is super easy to work with!</h1>
             <hr class="orange_hr">
             <p class="white_text tagline">The bootstrap framework helps make our website responsive. Just add the
-                starter
-                template, use the existing classes and you are good to go!</p>
+                starter template, use the existing classes and you are good to go!</p>
             <button type="button" class="btn btn-lg btn-primary custom_orange_button">FIND OUT MORE</button>
         </section>
     </header>
@@ -107,22 +112,24 @@
     <section id="samples">
         <div class="container">
             <div class="row row-cols-3">
-                <div class="col">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img1.png" alt="" class="sample_img">
                 </div>
-                <div class="col">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img2.png" alt="" class="sample_img">
                 </div>
-                <div class="col">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img3.png" alt="" class="sample_img">
                 </div>
-                <div class="col">
+            </div>
+            <div class="row row-cols-3">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img1.png" alt="" class="sample_img">
                 </div>
-                <div class="col">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img2.png" alt="" class="sample_img">
                 </div>
-                <div class="col">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
                     <img src="./img3.png" alt="" class="sample_img">
                 </div>
             </div>
@@ -144,14 +151,22 @@
                 <input type="phone" class="form-control" placeholder="Phone Number">
             </div>
             <div class="input-group">
-                <textarea class="form-control" placeholder="Message"></textarea>
+                <textarea class="form-control custom_message" placeholder="Message"></textarea>
             </div>
             <button type="submit" class="btn btn-primary submit_button">SUBMIT</button>
         </form>
+        <div class="row phone_img">
+            <img src="./phone.png" alt="">
+        </div>
+        <p style="text-align: center;">+1(111)222-3334</p>
+        
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+
+    <footer>
+        <p class="copyright_info">Copyright &copy 2021 - Company Name</p>
+    </footer>
+
 </body>
 
 </html>
