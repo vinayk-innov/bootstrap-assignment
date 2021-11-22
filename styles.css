@@ -1,0 +1,113 @@
+hr{
+    border: 2px solid;
+    width: 50px;
+    opacity: 1;
+    margin: 30px auto;
+}
+.orange_hr{
+    color: rgb(209, 87, 39);
+    border-color: rgb(209, 87, 39); 
+}
+.white_hr{
+    color: white;
+    border-color: white;
+}
+.white_text{
+    color: white;
+}
+#header_image{
+    position: absolute;
+    filter: brightness(.4);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    z-index: -1;
+}
+
+#intro{
+    margin: 12vh auto;
+    width: 70%;
+}
+.to_right{
+    float:right;
+}
+.main_heading{
+    text-align: center;
+    font-size: 4.5em;
+}
+.sub_heading{
+    text-align: center;
+    font-size: 3.5em;
+}
+.tagline{
+    text-align: center;
+    font-size: 1.3em;
+}
+.custom_orange_button{
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(209, 87, 39);
+    border: 0px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.custom_white_button{
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    border: 0px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+#getting_started{
+    background-color: rgb(209, 87, 39);
+    padding: 10%;
+}
+#services{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.rem_border{
+    border: 0px;
+}
+.cards_img{
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.centered_text{
+    text-align: center;
+}
+
+
+#samples{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sample_img{
+    width: 110%;
+}
+
+
+#get_in_touch{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.submit_button{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(209, 87, 39);
+    border-width: 0px;
+}
