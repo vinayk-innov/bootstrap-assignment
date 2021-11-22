@@ -13,13 +13,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <title>Hello, world!</title>
+    <title>Bootstrap Assignment
+    </title>
 </head>
 
 <body>
     <header>
         <img src="./header_image.jpg" alt="" id="header_image">
-        <nav class="navbar navbar-expand-lg navbar-dark d-lg-block">
+        <nav class="navbar navbar-expand-lg navbar-dark d-lg-block nav_margin">
             <div class="container-fluid">
                 <a class="navbar-brand nav-link" id="custom_title" href="#"><strong>Bootstrap Task</strong></a>
 
@@ -51,7 +52,7 @@
             <hr class="orange_hr">
             <p class="white_text tagline">The bootstrap framework helps make our website responsive. Just add the
                 starter template, use the existing classes and you are good to go!</p>
-            <button type="button" class="btn btn-lg btn-primary custom_orange_button">FIND OUT MORE</button>
+            <button type="button" class="btn btn-lg  custom_orange_button">FIND OUT MORE</button>
         </section>
     </header>
 
@@ -61,7 +62,7 @@
             <hr class="white_hr">
             <p class="white_text tagline">Bootstrap has everything you need to get your new website up and running in no
                 time!</p>
-            <button class="btn btn-lg btn-primary custom_white_button">GET STARTED!</button>
+            <button class="btn btn-lg  custom_white_button">GET STARTED!</button>
     </section>
 
 
@@ -138,7 +139,7 @@
     <section id="get_in_touch">
         <h2 class="sub_heading">Let's Get In Touch!</h2>
         <hr class="orange_hr">
-        <p class="tagline">Ready to start your next projec with us? Send us a messages and we will get back to you as
+        <p class="tagline">Ready to start your next project with us? Send us a message and we will get back to you as
             soon as possible!</p>
         <form onsubmit="">
             <div class="mb-3">
@@ -153,7 +154,7 @@
             <div class="input-group">
                 <textarea class="form-control custom_message" placeholder="Message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary submit_button">SUBMIT</button>
+            <button type="submit" class="btn  submit_button" disabled>SUBMIT</button>
         </form>
         <div class="row phone_img">
             <img src="./phone.png" alt="">
@@ -162,9 +163,8 @@
         
     </section>
 
-
     <footer>
-        <p class="copyright_info">Copyright &copy 2021 - Company Name</p>
+        <p id="copyright_info">Copyright &copy 2021 - Company Name</p>
     </footer>
 
 </body>
